@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    vertical-align: middle;
+    width: 100%;
+    max-width: 100%;
+}
+.container{
+    width: 970px;
+    max-width: 85%;
+    margin: 0 auto;
+}
+.clearfix{
+    clear: both;
+}
+/* BASIC END */
+/* ===============
+    header start
+=============== */
+.header_section{
+    line-height: 120px;
+}
+.header_section .head_logo{
+    display: inline-block;
+    float: left;
+}
+.header_section .head_logo img{
+    line-height:120px;
+}
+.header_section .head_text {
+	float: left;
+	color: #3ca2a2;
+	margin-right: 30px;
+	margin-left: 15px;
+}
+.header_section .head_text h2{
+    font-size: 27px;
+}
+.header_section .head_social{
+    float: right;
+}
+.header_section .head_social a{
+    font-size: 22px;
+    color: #b76262;
+    transition: all linear .3s;
+}
+.header_section .head_social a:hover{
+    color: #cb0611;
+}
+/* ===============
+    header end
+=============== */
+/* ===============
+    nav start
+=============== */
+#NAV{/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cf0511+0,ae1010+100 */
+    background: #cf0511; /* Old browsers */
+    background: -moz-linear-gradient(top,  #cf0511 0%, #ae1010 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #cf0511 0%,#ae1010 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #cf0511 0%,#ae1010 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cf0511', endColorstr='#ae1010',GradientType=0 ); /* IE6-9 */    
+    width: 100%;
+    height: 50px;
+}
+.main_menu{
+    float: left;
+}
+.main_menu ul{
+    line-height: 50px;
+}
+.main_menu li{
+    display:block;
+    float: left;
+}
+.main_menu li a{
+    display: inline-block;
+    padding:0 10px;
+    transition: all linear .3s;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+}
+.main_menu li a:hover{
+    background:#f18d26;
+}
+.main_menu_social{
+    float: right;
+}
+.main_menu_social a{
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	background: #fff;
+	line-height: 26px;
+	margin-left: 5px;
+	color: red;
+    margin-top: 13px;
+    transition: all linear .3s;
+}
+.main_menu_social a i{
+    margin-left: 6px;
+}
+.main_menu_social a:hover{
+    color: #fff;
+    background:#f18d26;
+}
+/* ===============
+    nav end
+=============== */
+/* ===============
+hero_section start
+=============== */
+#HeroSection{
+    background-image: url(../image/hero_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero_text{
+    width:45%;
+    float: left;
+    padding:75px 0;
+    color: #215a6d;
+}
+.hero_text h2{
+    font-size: 38px;
+    font-weight: 400;
+}
+.hero_text h1{
+    font-size: 48px;
+    font-weight: 600;
+    font-style: italic;
+}
+.hero_text p{
+    margin-top: 30px;
+    margin-bottom:40px;
+}
+.hero_text a{
+    font-size: 18px;
+    border: 1px solid #85bd97;
+    padding:5px 15px;
+    border-radius:25px;
+    background: #85bd97;
+    color: #fff;
+    transition: all linear .3s;
+}
+.hero_text a:hover{
+    background:#f18d26;
+    border-color: #fff;
+}
+.hero_cont{
+    position: relative;;
+}
+.hero-img {
+	width: 55%;
+	display: inline-block;
+	margin-top: 75px;
+}
+/* ===============
+hero_section end
+=============== */
+
+/* ============================
+    ABOUT SECTION START
+============================= */
+.single_service {
+	float: left;
+	width: 33.3%;
+	text-align: center;
+	padding: 50px 0;
+}
+.single_service .service_img{
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+}
+.single_service h2{
+    color: #3ca2a2;
+    padding-bottom: 25px;
+    font-size: 23px;
+}
+.single_service p{
+    color: #215a6d;
+    padding: 25px 0px;
+}
+.single_service a{
+    color: #3ca2a2;
+}
+.single_service a i{
+    color: #c70811;
+    margin-right:10px;
+}
+/* ============================
+    ABOUT SECTION END
+============================= */
+
+/* ===============
+    Notice start
+=============== */
+#Notice{
+    background:#dfece6;
+    width: 100%;
+    padding:50px 0;
+
+}
+.design_header{
+    display: inline-block;
+    width: 100%;
+}
+.n_board{
+    margin-right: 50px;
+}
+.n_board h2{
+    color: #215a6d;
+    position: relative;
+    padding-bottom: 30px;
+}
+.n_board h2::before {
+	position: absolute;
+	content: '';
+	width: 100%;
+	left: 0;
+	bottom: 25px;
+	border-bottom: 2px solid #fff;
+}
+.n_board h2::after {
+	position: absolute;
+	content: '';
+	width: 15%;
+	height: 10px;
+	left: 0;
+	bottom: 25px;
+	border-bottom: 2px solid #ae1010;
+}
+.design_header{
+    color: #215a6d;
+    position: relative;
+    padding-bottom: 30px;
+    display: inline-block;
+}
+.design_header::before {
+	position: absolute;
+	content: '';
+	width: 100%;
+	left: 0;
+	bottom: 25px;
+	border-bottom: 2px solid #eaeaea;
+}
+.design_header::after {
+	position: absolute;
+	content: '';
+	width:60px;
+	height: 10px;
+	left: 0;
+	bottom: 25px;
+	border-bottom: 2px solid #ae1010;
+}
+.notice{
+    width: 47.2%;
+    float: left;
+}
+.notice_links p {
+	border: 1px solid #fff;
+	background: #fff;
+	color: #3ca2a2;
+	margin-bottom: 3px;
+	padding-left: 10px;
+	float: left;
+	width: 100%;
+}
+.notice_links p > a {
+	background:#ae1010;
+	padding: 5px 10px;
+    color: #fff;
+    float: right;
+}
+.view_btn{
+    font-size: 14px;
+    background: none;
+    color: #ae1010;
+    margin-top: 20px;
+}
+.view_btn i{
+    margin-right: 10px;
+}
+/* ===============
+    Notice end
+=============== */
+/* ===============
+    events start
+=============== */
+#Event{
+    padding:30px 0;
+}
+.single_event{
+    width: 30.3%;
+    float: left;
+}
+.single_event{
+    margin-right: 41px;
+}
+.events{
+    padding-bottom: 30px;
+}
+.one{
+    padding-top: 30px;
+    border-top: 1px solid #dfece6;
+}
+.events h2{
+    font-size: 18px;
+    color: #3ca2a2;
+    
+}
+.events p{
+    font-size: 13px;
+    color: #215a6d;
+    
+}
+.medical_item ul li{
+    margin-bottom:13px;
+}
+.medical_item ul li i{
+    color: #cb0611;
+    margin-right: 10px;
+}
+.photo{
+    margin-right: 0;
+}
+.photo .photo_item ul li{
+    float: left;
+    margin-right: 31px;
+    margin-bottom: 10px;
+}
+.photo .photo_item ul li:nth-last-child(1),
+.photo .photo_item ul li:nth-last-child(3){
+    margin-right: 0;
+}
+.photo .photo_item ul li img{
+    width: 100%;
+    max-width: 100%;
+}
+/* ===============
+    events end
+=============== */
+/* ===============
+    doctor start
+=============== */
+#Doctor{
+    padding: 50px 0;
+}
+.doctor{
+    width: 30.7%;
+    float: left;
+    margin-right: 35px;
+}
+.doctor:nth-child(4) {
+    margin-right: 0;
+}
+.doctor img{
+    width: 100%;
+    max-width: 100%;
+    border:6px solid #dfece6;
+}
+.doctor h2{
+    font-size: 18px;
+    color: #3ca2a2;
+}
+.doctor span{
+    color: #878787;
+    font-size: 12px;
+}
+.doctor .all_links a{
+    color: #cb0611;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.doctor{}
+/* ===============
+    doctor end
+=============== */
+/* ===============
+    footer start
+=============== */
+#Footer{
+    background: #000;
+}
+.footer{
+    padding: 50px 0;
+}
+#Footer p{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #cb0611;
+}
+.footer_sec{
+    width: 100%;
+    display: block;
+}
+.footer_sec .head_logo{
+    display:inline-block
+
+}
+.footer_sec .head_logo img{
+    width: 100%;
+    max-width: 100%;
+}
+.footer_sec .head_text{
+    color: #3ca2a2;
+    display: inline-block;
+    margin-left:25px;
+}
+.f_section:nth-child(3) {
+    margin-right: 0;
+} 
+.footer_text{
+    display:block;
+}
+.f_section{
+    color: #3ca2a2;
+    float: left;
+    margin-right: 20.1%;
+}
+.f_section h2{
+    margin-top: 20px;
+    padding: 20px 0;
+}
+.f_section ul li{
+    margin-bottom:15px;
+}
+.f_section ul li i{
+    margin-right: 10px;
+    color: #cb0611;
+}
+.f_section ul li a i{
+    
+}
+/* ===============
+    footer end
+=============== */
+
+
+
+
+
+
