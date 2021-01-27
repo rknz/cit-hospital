@@ -403,10 +403,11 @@ hero_section end
     padding: 50px 0;
 }
 #Footer p{
+    font-size: 12px;
     display: block;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     background-color: #cb0611;
 }
 .footer_sec{
@@ -440,16 +441,15 @@ hero_section end
 .f_section h2{
     margin-top: 20px;
     padding: 20px 0;
+    font-size: 18px;
 }
 .f_section ul li{
+    font-size: 14px;
     margin-bottom:15px;
 }
 .f_section ul li i{
     margin-right: 10px;
     color: #cb0611;
-}
-.f_section ul li a i{
-    
 }
 /* ===============
     footer end
